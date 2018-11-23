@@ -16,6 +16,7 @@ import numpy as np
 
 from model import darknet
 
+
 parser = argparse.ArgumentParser(description='PyTorch CCCV30 training')
 parser.add_argument('--batch-size', type=int, default=32, metavar='N',
                     help='input batch size for training (default: 32)')
